@@ -103,7 +103,7 @@
         <configuration>
           <contextDirectory>${basedir}/target/docker-context</contextDirectory>
           <writeTestMetadata>false</writeTestMetadata>
-          <repository>remigius65/webapp-hello-java</repository>
+          <repository>cygarpb/hello</repository>
           <tag>${build.repo.commit}</tag>
         </configuration>
       </plugin>
