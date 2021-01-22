@@ -13,7 +13,7 @@ env:
   RUN_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
   RUN_SA_KEY: ${{ secrets.GCP_SA_KEY }}
   RUN_REGION: us-central1
-  SERVICE_NAME: helloworld
+  SERVICE_NAME: hello_world
 
 jobs:
   build:
